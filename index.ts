@@ -44,7 +44,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://easyevents-pwa-updated.vercel.app/",
+    origin: "https://easyevents-pwa-updated.vercel.app",
     credentials: true,
   })
 );
